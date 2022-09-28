@@ -1,48 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
-:root{
-    --pale-blue: hsl(225, 100%, 94%);
-    --bright-blue: hsl(245, 75%, 52%);
-    --very-pale-blue: hsl(225, 100%, 98%);
-    --desaturated-blue: hsl(224, 23%, 55%);
-    --dark-blue: hsl(223, 47%, 23%);
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
-    background-image: url('./images/pattern-background-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--pale-blue);
-    font-family: "Red Hat Display", sans-serif;
-    font-size: 16px;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
 }
 
 .card {
-    width: 450px;
-    background-color: white;
-    color: var(--desaturated-blue);
-    border-radius: 20px;
-    overflow: hidden;
+  width: 450px;
+  background-color: white;
+  color: var(--desaturated-blue);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 50px auto;
 }
 
 .title {
   color: var(--dark-blue);
   font-weight: 900px;
   font-size: 32px;
-  padding: 30px;
 }
 
 .child {
   color: red;
 }
-
 
 .hero-image {
   width: 100%;
@@ -50,16 +48,51 @@ body {
 
 .container {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
 }
 
-.container > *{
+.container > * {
   padding: 30px;
   margin: 13px 0;
-
 }
 
 .order-description {
+  line-height: 25px;
+}
+
+.plan-container {
+  font-size: 16px;
+  background-color: var(--very-pale-blue);
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-container a {
+  color: var(--bright-blue);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.plan-container a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.plan-container strong {
+  color: var(--dark-blue);
+}
+
+.plan-description {
   line-height: 20px;
+  margin-right: 75px;
 }
 
 button {
@@ -69,7 +102,6 @@ button {
   font-size: 0.9rem;
   cursor: pointer;
   border-radius: 12px;
-
 }
 
 .proceed-button {
