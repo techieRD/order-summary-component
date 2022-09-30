@@ -36,6 +36,9 @@ body {
   color: var(--dark-blue);
   font-weight: 900px;
   font-size: 32px;
+  position: relative;
+  top: 20px;
+
 }
 
 .child {
@@ -56,12 +59,12 @@ body {
 }
 
 .container > * {
-  padding: 30px;
+  padding: 20px;
   margin: 13px 0;
 }
 
 .order-description {
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .plan-container {
