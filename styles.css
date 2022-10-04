@@ -38,7 +38,6 @@ body {
   font-size: 32px;
   position: relative;
   top: 20px;
-
 }
 
 .child {
@@ -128,4 +127,13 @@ button {
 
 .cancel-button:hover {
   color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
