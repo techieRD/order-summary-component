@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://techierd.github.io/order-summary-component/)
+- Solution URL: [Solution site](https://your-solution-url.com)
+- Live Site URL: [Live Site](https://techierd.github.io/order-summary-component/)
 
 ## My process
 
@@ -48,7 +48,7 @@ which is something I haven't had an opprotunity to do.
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I didn't know about this markdown guide either ... pretty cool.
 
 ### Continued development
 
@@ -60,7 +60,7 @@ I lots of courses on Udemy that I reference as I am learning.
 
 ## Author
 
-- Website - [Angi](#)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/techierd)
+- Website - [Angi - Under construction](#)
+- Frontend Mentor - [@techieRD](https://www.frontendmentor.io/profile/techierd)
 
 ## Acknowledgments
